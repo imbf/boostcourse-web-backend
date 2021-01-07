@@ -1,0 +1,6 @@
+CREATE TABLE business_card (
+	name VARCHAR(10) NOT NULL PRIMARY KEY,
+	phone VARCHAR(15) NOT NULL,
+	compnay_name VARCHAR(15) NOT NULL,
+	create_date TIMESTAMP NOT NULL
+);
